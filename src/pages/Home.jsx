@@ -26,7 +26,7 @@ function Home() {
       Swal.showLoading(); // Show loading spinner
 
       const response = await axios.post(
-        "http://localhost:5000/get-token",
+        "https://frontier-server-api-1.onrender.com/get-token",
         {},
         {
           headers: {
